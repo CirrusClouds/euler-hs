@@ -113,7 +113,7 @@
 #endif /* MIN_TOOL_VERSION_strip */
 
 #ifndef CURRENT_COMPONENT_ID
-#define CURRENT_COMPONENT_ID "euler-hs-0.1.0.0-inplace-P1"
+#define CURRENT_COMPONENT_ID "euler-hs-0.1.0.0-inplace-Main"
 #endif /* CURRENT_COMPONENT_ID */
 #ifndef CURRENT_PACKAGE_VERSION
 #define CURRENT_PACKAGE_VERSION "0.1.0.0"

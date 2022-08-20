@@ -1,6 +1,9 @@
 module Main where
 
-import P1
+import qualified P1 as P1
+
+putShow :: Int -> IO ()
+putShow = (putStrLn . show)
 
 main :: IO ()
-main = putStrLn(fib)
+main = putShow $ P1.solution

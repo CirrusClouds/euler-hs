@@ -1,6 +1,13 @@
-module Main where
+module P1 where
 
-fib = "1"
+fizzbuzz :: [Int] -> Int
+fizzbuzz [] = 0
+fizzbuzz (h:t) = let
+  aux x | (x `mod` 3 == 0) = x
+        | (x `mod` 5 == 0) = x
+        | otherwise = 0
+  in  
+    aux h + fizzbuzz t
 
-main :: IO ()
-main = do putStrLn(fib)
+solution :: Int
+solution = fizzbuzz [1..999]
